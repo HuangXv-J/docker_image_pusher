@@ -1,4 +1,4 @@
 # Webhook 证书生成（admission webhook 必需）
-jettech/kube-webhook-certgen:v1.8.0
+jettech/kube-webhook-certgen:v1.5.2
 
 

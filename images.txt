@@ -1,6 +1,16 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# 基础 pause 容器（k3d 底层需要）
+rancher/mirrored-pause:3.6
+
+# kube-prometheus-stack 核心组件
+quay.io/prometheus-operator/prometheus-operator:v0.83.0
+quay.io/prometheus/prometheus:v2.55.1
+quay.io/prometheus/alertmanager:v0.28.0
+grafana/grafana:11.2.0
+registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.13.0
+quay.io/prometheus/node-exporter:v1.8.2
+
+# Webhook 证书生成（admission webhook 必需）
+ghcr.io/jkroepke/kube-webhook-certgen:v1.8.0
+
+# Config Reloader（Prometheus Operator 依赖）
+quay.io/prometheus-operator/prometheus-config-reloader:v0.83.0

@@ -1,4 +1,6 @@
-quay.io/prometheus-operator/prometheus-config-reloader:v0.90.1
-kiwigrid/k8s-sidecar:2.6.0
+# Loki 核心服务
+grafana/loki:2.9.3
+# 日志采集端
+grafana/promtail:2.9.3
 
 

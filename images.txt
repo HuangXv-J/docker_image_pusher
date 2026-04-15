@@ -1,6 +1,22 @@
-# Loki 核心服务
-grafana/loki:2.9.3
-# 日志采集端
-grafana/promtail:2.9.3
+# Online Boutique Demo 所需镜像 (版本 v0.3.8)
+# 来源: https://github.com/GoogleCloudPlatform/microservices-demo
+
+# 前端服务
+gcr.io/google-samples/microservices-demo/frontend:v0.3.8
+
+# 业务服务
+gcr.io/google-samples/microservices-demo/adservice:v0.3.8
+gcr.io/google-samples/microservices-demo/cartservice:v0.3.8
+gcr.io/google-samples/microservices-demo/checkoutservice:v0.3.8
+gcr.io/google-samples/microservices-demo/currencyservice:v0.3.8
+gcr.io/google-samples/microservices-demo/emailservice:v0.3.8
+gcr.io/google-samples/microservices-demo/paymentservice:v0.3.8
+gcr.io/google-samples/microservices-demo/productcatalogservice:v0.3.8
+gcr.io/google-samples/microservices-demo/recommendationservice:v0.3.8
+gcr.io/google-samples/microservices-demo/shippingservice:v0.3.8
+
+# 辅助服务
+gcr.io/google-samples/microservices-demo/redis-cart:v0.3.8
+gcr.io/google-samples/microservices-demo/loadgenerator:v0.3.8
 
 

@@ -1,4 +1,2 @@
-
-
-rancher/mirrored-library-traefik:2.11.18
+ghcr.io/chaos-mesh/chaos-daemon
 

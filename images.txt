@@ -1,4 +1,4 @@
-# Webhook 证书生成（admission webhook 必需）
-jettech/kube-webhook-certgen:v1.5.2
+quay.io/prometheus-operator/prometheus-config-reloader:v0.90.1
+kiwigrid/k8s-sidecar:2.6.0
 
 
